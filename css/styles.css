@@ -1,0 +1,109 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.iphone-mockup {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features {
+  text-align: center;
+  padding: 10% 15%;
+}
+
+.icon {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.featname {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.featdesc {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testdesc {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+.carousel-item {
+  padding: 10% 15%;
+
+}
+
+/* Press */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.pressicons {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+/* Pricing */
+
+#pricing {
+  text-align: center;
+  padding: 3%;
+}
