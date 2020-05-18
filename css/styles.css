@@ -14,7 +14,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 25%;
 }
 
 .navbar-brand {
@@ -38,11 +38,15 @@ h1 {
 .iphone-mockup {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 26%;
 }
 
 #features {
+  background-color: white;
   text-align: center;
   padding: 10% 15%;
+  position: relative;
 }
 
 .icon {
@@ -77,6 +81,12 @@ h1 {
   line-height: 1.5;
 }
 
+@media screen and (max-width : 990px) {
+  .testdesc {
+    font-size: 1.5rem;
+  }
+}
+
 .testimg {
   width: 10%;
   border-radius: 100%;
@@ -104,6 +114,49 @@ h1 {
 /* Pricing */
 
 #pricing {
-  text-align: center;
   padding: 3%;
+}
+
+/* Download */
+
+#cta {
+  background-color: #ff4c68;
+}
+
+.cta-container {
+  padding: 7% 0 ;
+}
+
+.cta-title {
+  font-weight: 900;
+  color: #fff;
+}
+
+.dnld-btn {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+#footer {
+  padding-top: 5%;
+}
+
+.web-icon {
+  margin: 1%;
+}
+.sm-icon {
+  margin: 0.8rem;
+}
+
+@media screen and (max-width : 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone-mockup {
+    padding-top: 5%;
+    transform: rotate(0);
+    position: static;
+  }
 }
